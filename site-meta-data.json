@@ -1,9 +1,9 @@
 {
-  "title": "Delog",
-  "siteUrl": "https://delog-w3layouts.netlify.com/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "title": "My nursing journey",
+  "siteUrl": "https://eager-snyder-738eae.netlify.app",
+  "description": "Sharing my nursing experiences and journey",
   "home": {
-    "title": "Hi! I'm Delog",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
+    "title": "Hi! I am Aashika",
+    "description": "I started working in nursing in 2016. Having worked in different positions, settings and environment, I decided to start sharing my experiences and stories along my nursing journey. I will be sharing nursing topics,  my experiences, solutions to problems. Stay tuned and keep following. :)"
   }
 }
