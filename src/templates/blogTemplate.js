@@ -1,7 +1,8 @@
-import React from "react"
+import React from "react";
 import Helmet from 'react-helmet';
-import { graphql } from "gatsby"
-import Layout from "../components/layout"
+import { graphql } from "gatsby";
+import Layout from "../components/layout";
+import { Disqus, CommentCount } from 'gatsby-plugin-disqus';
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -9,6 +10,11 @@ export default function Template({
   const { site, markdownRemark } = data // data.markdownRemark holds your post data
   const { siteMetadata } = site
   const { frontmatter, html } = markdownRemark
+  let disqusConfig = {
+    url: `${frontmatter.siteUrl+frontmatter.pathname}`,
+    identifier: frontmatter.id,
+    title: frontmatter.title,
+  }
   return (
     <Layout>
       <Helmet>
@@ -35,6 +41,8 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </article>
+        <CommentCount config={disqusConfig} placeholder={'...'} />
+        <Disqus config={disqusConfig} />
       </div>
     </Layout>
   )
