@@ -3,6 +3,11 @@ template: BlogPost
 path: /transition-from-being-a-student-to-a-registered-nurse
 date: 2021-12-04T10:25:03.635Z
 title: Transition from being a student to a registered nurse
+metaDescription: >-
+  I am a registered nurse, people call me Aashika. Little about myself, Iong
+  story short, I was an international student who joined nursing in Australia
+  and got registration.
+thumbnail: /assets/billy-huynh-W8KTS-mhFUE-unsplash.jpg
 ---
 Hello to whoever reading this blog.
 
