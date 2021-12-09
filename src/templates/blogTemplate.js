@@ -11,7 +11,7 @@ export default function Template({
   const { siteMetadata } = site
   const { frontmatter, html } = markdownRemark
   let disqusConfig = {
-    url: `${frontmatter.siteUrl}`,
+    url: `${frontmatter.url}`,
     identifier: frontmatter.id,
     title: frontmatter.title,
   }
