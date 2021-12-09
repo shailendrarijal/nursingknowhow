@@ -15,7 +15,6 @@ export default function Template({
     identifier: frontmatter.id,
     title: frontmatter.title,
   }
-  console.log("THE FRONTMATTER IS:::", frontmatter);
   return (
     <Layout>
       <Helmet>

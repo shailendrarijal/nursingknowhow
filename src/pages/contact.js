@@ -19,12 +19,11 @@ const ContactPage = ({
           <h1 className="post-title">Get in Touch</h1>
           <p>Wanted to send me a message? Send them here &rarr;</p>
         </div>
-        <div>
-          <form className="form-container" netlify-honeypot="bot-field" data-netlify="true" method="post">
+        <form className="form-container" netlify-honeypot="bot-field" data-netlify="true" method="post">
             <div>
-            <p class="hidden">
-              <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
-            </p>
+              <p class="hidden">
+                <label class="hidden">Don’t fill this out if you’re human: <input name="bot-field" /></label>
+              </p>
             </div>
             <div>
               <label htmlFor="w3lName">Name</label>
@@ -45,8 +44,7 @@ const ContactPage = ({
             <div style={{display: "flex", justifyContent: "flex-end"}}>
               <input type="submit" className="button -primary" style={{marginRight: 0}} />
             </div>
-          </form>
-        </div>
+        </form>
       </div>
     </Layout>
   )
