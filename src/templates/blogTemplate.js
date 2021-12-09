@@ -11,10 +11,11 @@ export default function Template({
   const { siteMetadata } = site
   const { frontmatter, html } = markdownRemark
   let disqusConfig = {
-    url: `${frontmatter.url}`,
+    url: frontmatter.url,
     identifier: frontmatter.id,
     title: frontmatter.title,
   }
+  console.log("THE FRONTMATTER IS:::", frontmatter);
   return (
     <Layout>
       <Helmet>
